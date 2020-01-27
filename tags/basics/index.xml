@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>basics on PyMonth</title>
-    <link>/tags/basics/</link>
+    <link>/PyMonth/tags/basics/</link>
     <description>Recent content in basics on PyMonth</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="/tags/basics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/PyMonth/tags/basics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Chapter1</title>
-      <link>/posts/chapter1/</link>
+      <link>/PyMonth/posts/chapter1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/posts/chapter1/</guid>
+      <guid>/PyMonth/posts/chapter1/</guid>
       <description>__ init __ Overview No one can deny that Python is one of the most used programming languages of our time.
 The vast community of python allows it to progress further and venture through many different domains.
 Python is an easy to use language thanks to the easy syntax and flexibility it offers. However Python is an interpreted language, thus it treats each line on its own. It goes through the file line by line unlike C or C++ which compile the whole file and generates and output file to be executed.</description>
