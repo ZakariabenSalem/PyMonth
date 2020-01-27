@@ -6,6 +6,7 @@
     <description>Recent content in Tags on PyMonth</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/PyMonth/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +14,7 @@
     <item>
       <title>basics</title>
       <link>/PyMonth/tags/basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/PyMonth/tags/basics/</guid>
       <description></description>
@@ -22,7 +23,7 @@
     <item>
       <title>python</title>
       <link>/PyMonth/tags/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/PyMonth/tags/python/</guid>
       <description></description>

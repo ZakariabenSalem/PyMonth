@@ -3,35 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/PyMonth/tags/basics/</loc>
-  </url>
-  
-  <url>
-    <loc>/PyMonth/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/PyMonth/posts/chapter1/</loc>
-  </url>
-  
-  <url>
     <loc>/PyMonth/posts/chapter2/</loc>
+    <lastmod>2020-01-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/PyMonth/posts/</loc>
+    <lastmod>2020-01-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/PyMonth/</loc>
+    <lastmod>2020-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/PyMonth/tags/basics/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/PyMonth/posts/chapter1/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/PyMonth/tags/python/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/PyMonth/tags/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/PyMonth/categories/</loc>
   </url>
   
 </urlset>

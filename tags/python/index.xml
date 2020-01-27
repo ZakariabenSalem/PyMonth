@@ -6,6 +6,7 @@
     <description>Recent content in python on PyMonth</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/PyMonth/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +14,7 @@
     <item>
       <title>Chapter1</title>
       <link>/PyMonth/posts/chapter1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/PyMonth/posts/chapter1/</guid>
       <description>__ init __ Overview No one can deny that Python is one of the most used programming languages of our time.
