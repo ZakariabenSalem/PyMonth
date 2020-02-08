@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on PyMonth</title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on PyMonth</description>
+    <title>Object Oriented on PyMonth</title>
+    <link>/tags/object-oriented/</link>
+    <description>Recent content in Object Oriented on PyMonth</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/object-oriented/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,17 +19,6 @@
       <guid>/posts/chapter2/</guid>
       <description>Welcome Back !! We&amp;rsquo;ve missed you we are sorry for the skip concerning last week , let&amp;rsquo;s get right into it then &amp;hellip; 
 Functions Let&amp;rsquo;s finish with some functions real quick Most of the time you won&amp;rsquo;t write all the code from scratch. Nearly in any &amp;ldquo;more advanced&amp;rdquo; scripts you will need to use a library or a module , here is how you can import one :</description>
-    </item>
-    
-    <item>
-      <title>Chapter1</title>
-      <link>/posts/chapter1/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/chapter1/</guid>
-      <description>__ init __ Overview No one can deny that Python is one of the most used programming languages of our time.
-The vast community of python allows it to progress further and venture through many different domains.
-Python is an easy to use language thanks to the easy syntax and flexibility it offers. However Python is an interpreted language, thus it treats each line on its own. It goes through the file line by line unlike C or C++ which compile the whole file and generates and output file to be executed.</description>
     </item>
     
   </channel>

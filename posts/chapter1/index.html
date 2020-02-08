@@ -5,17 +5,17 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="generator" content="Hugo 0.63.1" />
+    <meta name="generator" content="Hugo 0.53" />
     
-    <link rel="canonical" href="/PyMonth/posts/chapter1/" />
-    <meta name="description" content="PyMonth documentation. &lt;br/&gt;&lt;br/&gt; Ctrl&#43;B toggle sidebar. ">
+    <link rel="canonical" href="/posts/chapter1/" />
+    <meta name="description" content="PyMonth documentation.">
     
 
     <title>Chapter1 &middot; PyMonth</title>
 
-    <link rel="shortcut icon" href="/PyMonth/images/favicon.ico" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
 
-    <link rel="stylesheet" href="/PyMonth/css/main.css" />
+    <link rel="stylesheet" href="/css/main.css" />
     
         
         <link rel="stylesheet"
@@ -30,10 +30,10 @@
 <body class="loading dark-mode">
     
 <div class="top">
-    <img class="logo" src="/PyMonth/images/logo.svg" alt="logo" />
+    <img class="logo" src="/images/logo.svg" alt="logo" />
 </div>
 <div class="bottom">
-    <img class="logo" src="/PyMonth/images/logo.svg" alt="logo" />
+    <img class="logo" src="/images/logo.svg" alt="logo" />
 </div>
 
     <header class="header">
@@ -41,8 +41,8 @@
         
 
 <li class="logo-container logo-default">
-    <a href="/PyMonth/" class="btn logo-link">
-        <img class="logo" src="/PyMonth/images/logo.svg" alt="logo" />
+    <a href="/" class="btn logo-link">
+        <img class="logo" src="/images/logo.svg" alt="logo" />
     </a>
 </li>
 
@@ -58,24 +58,17 @@
             <ul class="sub-menu control">
                 
                 <li class="">
-                    <a href="PyMonth/posts"
+                    <a href="/posts"
                     
                         class="btn "
                     >Posts</a>
                 </li>
                 
                 <li class="">
-                    <a href="PyMonth/tags"
+                    <a href="/tags"
                     
                         class="btn "
                     >Tags</a>
-                </li>
-                
-                <li class="">
-                    <a href="PyMonth/categories"
-                    
-                        class="btn "
-                    >Categories</a>
                 </li>
                 
             </ul>
@@ -158,16 +151,16 @@
         <nav class="sidebar">
             <ul class="posts control">
     
-    <li><a class="no-break btn" href='/PyMonth/posts/chapter2/'><i class="icon icon-post"></i>Chapter2</a></li>
+    <li><a class="no-break btn" href='/posts/chapter2/'><i class="icon icon-post"></i>Chapter2</a></li>
     
-    <li><a class="no-break btn" href='/PyMonth/posts/chapter1/'><i class="icon icon-post"></i>Chapter1</a></li>
+    <li><a class="no-break btn" href='/posts/chapter1/'><i class="icon icon-post"></i>Chapter1</a></li>
     
 </ul>
 
         </nav>
         <main class="main">
             <article class="article">
-    <h2 class="title"><a href='/PyMonth/posts/chapter1/' class="btn">Chapter1</a></h2>
+    <h2 class="title"><a href='/posts/chapter1/' class="btn">Chapter1</a></h2>
     <div class="article-meta clearfix">
         <ul class="dates clearfix left control">
             <li><i class="icon icon-date"></i></li>
@@ -182,11 +175,11 @@
             <li><i class="icon icon-tags"></i></li>
             
             <li>
-                <a href="/PyMonth/tags/python/" class="btn">python</a>
+                <a href="/tags/python/" class="btn">python</a>
             </li>
             
             <li>
-                <a href="/PyMonth/tags/basics/" class="btn">basics</a>
+                <a href="/tags/basics/" class="btn">basics</a>
             </li>
             
         </ul>
@@ -194,400 +187,670 @@
     </div>
     <div class="content">
         
-        <h1 id="__-init-__">__ init __</h1>
+        
+
+<h1 id="init">__ init __</h1>
+
 <h2 id="overview">Overview</h2>
+
 <p>No one can deny that Python is one of the most used programming languages of our time.</p>
+
 <p>The vast community of python allows it to progress further and venture through many different domains.</p>
+
 <p>Python is an easy to use language thanks to the easy syntax and flexibility it offers.
 However Python is an interpreted language, thus it treats each line on its own. It goes through the file line by line unlike C or C++ which compile the whole file and generates and output file to be executed.</p>
+
 <h2 id="installation">Installation</h2>
+
 <p>If you wish to follow along with us make sure you have a set environment , you&rsquo;ll just need a text editor and a python interpreter.</p>
+
 <h3 id="windows">Windows</h3>
+
 <h3 id="linux">Linux</h3>
-<h2 id="data-types-">Data types :</h2>
+
+<h2 id="data-types">Data types :</h2>
+
 <p>Before we jump in on the different variable types here is how you can write a comment in python :</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#75715e">#this is my comment hurray !! :D</span>
-some great code goes here <span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>  
-<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;&#39;&#39;</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">is this really a multi line comment ?? :o :o</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">how can this be !!!</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">its so amazing .. &lt;3  </span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#39;&#39;&#39;</span>
-</code></pre></div><h3 id="simple-variables">Simple variables</h3>
-<p>Simple variables are a container that takes a value of sort and its type.</p>
-<blockquote>
-<p>example : a variable in this case is a box that contains an object inside it and has the type of that object labeled on the outside of the box. A shoe box contains a show and has a label on the outside.</p>
-</blockquote>
+
+<pre><code class="language-py">#this is my comment hurray !! :D
+some great code goes here ...  
+'''
+is this really a multi line comment ?? :o :o
+how can this be !!!
+its so amazing .. &lt;3  
+'''
+</code></pre>
+
+<h3 id="simple-variables">Simple variables</h3>
+
+<p>Simple variables are a container that takes a value of sort and its type.
+&gt; example : a variable in this case is a box that contains an object inside it and has the type of that object labeled on the outside of the box. A shoe box contains a show and has a label on the outside.</p>
+
 <p>There are 4 data types that are common between so many programming languages. Tho python doesn&rsquo;t pay attention to their types at declaration and can be flexible with them , they are as such :</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">x <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>              <span style="color:#75715e"># int</span>
-y <span style="color:#f92672">=</span> <span style="color:#ae81ff">2.5</span>            <span style="color:#75715e"># float</span>
-name <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Zakaria</span><span style="color:#e6db74">&#39;</span>   <span style="color:#75715e"># string</span>
-is_cool <span style="color:#f92672">=</span> True     <span style="color:#75715e"># Boolean</span>
-x<span style="color:#f92672">=</span>x<span style="color:#f92672">/</span>y
-z<span style="color:#f92672">=</span>x<span style="color:#f92672">*</span>y
-</code></pre></div><p>Python accepts multiple assignment as such :</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">x, y, name, is_cool <span style="color:#f92672">=</span> (<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2.5</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Zakaria</span><span style="color:#e6db74">&#39;</span>, True)
-</code></pre></div><p>Python&rsquo;s flexibility allows you to change a variable&rsquo;s type by casting.
-<br>
+
+<pre><code class="language-py">x = 1              # int
+y = 2.5            # float
+name = 'Zakaria'   # string
+is_cool = True     # Boolean
+x=x/y
+z=x*y
+</code></pre>
+
+<p>Python accepts multiple assignment as such :</p>
+
+<pre><code class="language-py">x, y, name, is_cool = (1, 2.5, 'Zakaria', True)
+</code></pre>
+
+<p>Python&rsquo;s flexibility allows you to change a variable&rsquo;s type by casting.
+<br />
 Casting is forcing a variable to switch type. However this can be impossible sometimes( example : turning &lsquo;+&rsquo; into an integer ).</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">x <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
-y <span style="color:#f92672">=</span> int(y)
-z <span style="color:#f92672">=</span> float(y)
-</code></pre></div><h3 id="strings">Strings</h3>
+
+<pre><code class="language-py">x = 1
+y = int(y)
+z = float(y)
+</code></pre>
+
+<h3 id="strings">Strings</h3>
+
 <p>Strings in python are surrounded by either single or double quotation marks.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">name <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">zak</span><span style="color:#e6db74">&#39;</span>
 
-surname<span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Amazing</span><span style="color:#e6db74">&#34;</span>
+<pre><code class="language-py">name = 'zak'
 
-</code></pre></div><h4 id="concatenate">Concatenate</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">result <span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">the coolest person in this room is </span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">+</span>name <span style="color:#f92672">+</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">the</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">+</span> surname
+surname= &quot;Amazing&quot;
 
-</code></pre></div><h4 id="casting-to-string">Casting to string</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">coolness <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>
-result <span style="color:#f92672">=</span> name <span style="color:#f92672">+</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">has </span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">+</span>str(coulness)
-<span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">My name is {name} and I am {age}</span><span style="color:#e6db74">&#39;</span><span style="color:#f92672">.</span>format(name<span style="color:#f92672">=</span>name, age<span style="color:#f92672">=</span>age))
-</code></pre></div><h4 id="some-string-methods">Some string Methods</h4>
+</code></pre>
+
+<h4 id="concatenate">Concatenate</h4>
+
+<pre><code class="language-py">result =&quot;the coolest person in this room is &quot;+name + &quot;the&quot; + surname
+
+</code></pre>
+
+<h4 id="casting-to-string">Casting to string</h4>
+
+<pre><code class="language-py">coolness = 100
+result = name +&quot;has &quot;+str(coulness)
+print('My name is {name} and I am {age}'.format(name=name, age=age))
+</code></pre>
+
+<h4 id="some-string-methods">Some string Methods</h4>
+
 <p>lets take a look to a couple of methods you can apply on strings in python.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">string<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">zak is the best tearcher</span><span style="color:#e6db74">&#34;</span>
-</code></pre></div><h4 id="make-all-uppercase">Make all uppercase</h4>
-<p>This method turns the characters of a string into capitalized ones &lsquo;a'=&gt; &lsquo;A&rsquo;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">string<span style="color:#f92672">.</span>upper()
 
-</code></pre></div><h4 id="capitalize-string">Capitalize string</h4>
-<p>This method capitalizes the first letter of every word. A word can be detected thanks to special characters like space (&rsquo; ' ).</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">string<span style="color:#f92672">.</span>capitalize()
+<pre><code class="language-py">string=&quot;zak is the best tearcher&quot;
+</code></pre>
 
-</code></pre></div><h4 id="make-all-lower">Make all lower</h4>
+<h4 id="make-all-uppercase">Make all uppercase</h4>
+
+<p>This method turns the characters of a string into capitalized ones &lsquo;a&rsquo;=&gt; &lsquo;A&rsquo;</p>
+
+<pre><code class="language-py">string.upper()
+
+</code></pre>
+
+<h4 id="capitalize-string">Capitalize string</h4>
+
+<p>This method capitalizes the first letter of every word. A word can be detected thanks to special characters like space (&rsquo; &lsquo; ).</p>
+
+<pre><code class="language-py">string.capitalize()
+
+</code></pre>
+
+<h4 id="make-all-lower">Make all lower</h4>
+
 <p>This method is the opposite of upper().</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">string<span style="color:#f92672">.</span>lower()
 
-</code></pre></div><h4 id="swap-case">Swap case</h4>
+<pre><code class="language-py">string.lower()
+
+</code></pre>
+
+<h4 id="swap-case">Swap case</h4>
+
 <p>This one is a mystery, how about you try it out and tell us about the result ??</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">string<span style="color:#f92672">.</span>swapcase()
 
-</code></pre></div><h4 id="get-length">Get length</h4>
+<pre><code class="language-py">string.swapcase()
+
+</code></pre>
+
+<h4 id="get-length">Get length</h4>
+
 <p>This method returns the value of the length of a string as an int.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">x<span style="color:#f92672">=</span>len(s)
 
-</code></pre></div><h4 id="replace">Replace</h4>
+<pre><code class="language-py">x=len(s)
+
+</code></pre>
+
+<h4 id="replace">Replace</h4>
+
 <p>This method replaces the occurrence of &lsquo;world&rsquo; by &lsquo;everyone&rsquo;. string.replace(&lsquo;word to be replaced&rsquo;, &lsquo;word to replace with&rsquo;).</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">string<span style="color:#f92672">.</span>replace(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">world</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">everyone</span><span style="color:#e6db74">&#39;</span>)
 
-</code></pre></div><h4 id="count">Count</h4>
+<pre><code class="language-py">string.replace('world', 'everyone')
+
+</code></pre>
+
+<h4 id="count">Count</h4>
+
 <p>counts the number of occurrences of a letter.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">sub <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">z</span><span style="color:#e6db74">&#39;</span>
-string<span style="color:#f92672">.</span>count(sub)
 
-</code></pre></div><h4 id="starts-with">Starts with</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">string<span style="color:#f92672">.</span>startswith(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">hello</span><span style="color:#e6db74">&#39;</span>)
+<pre><code class="language-py">sub = 'z'
+string.count(sub)
 
-</code></pre></div><h4 id="ends-with">Ends with</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">string<span style="color:#f92672">.</span>endswith(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">d</span><span style="color:#e6db74">&#39;</span>)
+</code></pre>
 
-</code></pre></div><h4 id="find-position">Find position</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">string<span style="color:#f92672">.</span>find(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;</span>)
+<h4 id="starts-with">Starts with</h4>
 
-</code></pre></div><h4 id="is-all-alphanumeric">Is all alphanumeric</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
-string<span style="color:#f92672">.</span>isalnum()
-</code></pre></div><h4 id="is-all-alphabetic">Is all alphabetic</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">string<span style="color:#f92672">.</span>isalpha()
+<pre><code class="language-py">string.startswith('hello')
 
-</code></pre></div><h4 id="is-all-numeric">Is all numeric</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">string<span style="color:#f92672">.</span>isnumeric()
+</code></pre>
 
-</code></pre></div><h3 id="inout">IN/OUT</h3>
+<h4 id="ends-with">Ends with</h4>
+
+<pre><code class="language-py">string.endswith('d')
+
+</code></pre>
+
+<h4 id="find-position">Find position</h4>
+
+<pre><code class="language-py">string.find('r')
+
+</code></pre>
+
+<h4 id="is-all-alphanumeric">Is all alphanumeric</h4>
+
+<pre><code class="language-py">
+string.isalnum()
+</code></pre>
+
+<h4 id="is-all-alphabetic">Is all alphabetic</h4>
+
+<pre><code class="language-py">string.isalpha()
+
+</code></pre>
+
+<h4 id="is-all-numeric">Is all numeric</h4>
+
+<pre><code class="language-py">string.isnumeric()
+
+</code></pre>
+
+<h3 id="in-out">IN/OUT</h3>
+
 <p>Standard input and output would help us visualize the data that we manipulate or communicate with the user.</p>
+
 <h4 id="output">output</h4>
+
 <p>Printing on the screen consists of :</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">x<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
-<span style="color:#66d9ef">print</span>(x)
-</code></pre></div><p>We can also have some formatting to play around with</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">print</span>(str(x))
-<span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">x =</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">+</span>x)
-</code></pre></div><p>F-Strings (3.6+)</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">name<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">zakaria</span><span style="color:#e6db74">&#34;</span>
-age<span style="color:#f92672">=</span><span style="color:#ae81ff">21</span>
 
-<span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Hello, my name is {name} and I am {age}</span><span style="color:#e6db74">&#39;</span>)
-</code></pre></div><p>Split into a list</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
-<span style="color:#66d9ef">print</span>(string<span style="color:#f92672">.</span>split())
+<pre><code class="language-py">x=1
+print(x)
+</code></pre>
 
-</code></pre></div><h4 id="input">Input</h4>
+<p>We can also have some formatting to play around with</p>
+
+<pre><code class="language-py">print(str(x))
+print(&quot;x =&quot; +x)
+</code></pre>
+
+<p>F-Strings (3.6+)</p>
+
+<pre><code class="language-py">name=&quot;zakaria&quot;
+age=21
+
+print(f'Hello, my name is {name} and I am {age}')
+</code></pre>
+
+<p>Split into a list</p>
+
+<pre><code class="language-py">
+print(string.split())
+
+</code></pre>
+
+<h4 id="input">Input</h4>
+
 <p>It is as simple as this !!</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">name <span style="color:#f92672">=</span> input(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">please type your name :</span><span style="color:#e6db74">&#34;</span>)
-</code></pre></div><h3 id="coding-phase-">Coding phase :</h3>
+
+<pre><code class="language-py">name = input(&quot;please type your name :&quot;)
+</code></pre>
+
+<h3 id="coding-phase">Coding phase :</h3>
+
 <p>write a script that prints &ldquo;welcome to our workshop&rdquo; &hellip; with the name of a person giving through the keyboard.
 Let the person next to you try your code and compare results.</p>
-<h2 id="data-structures-">Data structures :</h2>
+
+<h2 id="data-structures">Data structures :</h2>
+
 <p>Unlike many other programming languages python doesn&rsquo;t support arrays out of the box, because it provides an easier and more flexible types.</p>
-<p>the most common one is the <strong>list</strong> , it is an ordered and changeable a collection which is ordered and changeable.It allows different types of data to be stored together<br>
+
+<p>the most common one is the <strong>list</strong> , it is an ordered and changeable a collection which is ordered and changeable.It allows different types of data to be stored together<br />
 Allows duplicate members.</p>
+
 <h4 id="create-list">Create list</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">numbers <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">6</span>, <span style="color:#ae81ff">7</span>, <span style="color:#ae81ff">8</span>, <span style="color:#ae81ff">9</span>]
-people <span style="color:#f92672">=</span> [<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Hiba</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Mahmoud</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Hama</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Aziz</span><span style="color:#e6db74">&#39;</span>]
-</code></pre></div><h4 id="use-a-constructor">Use a constructor</h4>
+
+<pre><code class="language-py">numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+people = ['Hiba', 'Mahmoud', 'Hama', 'Aziz']
+</code></pre>
+
+<h4 id="use-a-constructor">Use a constructor</h4>
+
 <p>We will view the definition of constructors in out next workshop ! stay tuned :p</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">numbers2 <span style="color:#f92672">=</span> list((<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>))
-</code></pre></div><h4 id="get-a-value--length">Get a value &amp; length</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">print</span>(people[<span style="color:#ae81ff">1</span>])
-<span style="color:#66d9ef">print</span>(len(people))
-</code></pre></div><h4 id="basic-list-operations">Basic list operations</h4>
+
+<pre><code class="language-py">numbers2 = list((1, 2, 3, 4, 5))
+</code></pre>
+
+<h4 id="get-a-value-length">Get a value &amp; length</h4>
+
+<pre><code class="language-py">print(people[1])
+print(len(people))
+</code></pre>
+
+<h4 id="basic-list-operations">Basic list operations</h4>
+
 <p>Here are some basic operations you can apply on lists.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#75715e"># Append to list</span>
-people<span style="color:#f92672">.</span>append(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Zakaria</span><span style="color:#e6db74">&#39;</span>)
 
-<span style="color:#75715e"># Remove from list</span>
-people<span style="color:#f92672">.</span>remove(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Mahmoud</span><span style="color:#e6db74">&#39;</span>)
+<pre><code class="language-py"># Append to list
+people.append('Zakaria')
 
-<span style="color:#75715e"># Insert into position</span>
-people<span style="color:#f92672">.</span>insert(<span style="color:#ae81ff">2</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Omar</span><span style="color:#e6db74">&#39;</span>)
+# Remove from list
+people.remove('Mahmoud')
 
-<span style="color:#75715e"># Change value</span>
-people[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Rania</span><span style="color:#e6db74">&#39;</span>
+# Insert into position
+people.insert(2, 'Omar')
 
-<span style="color:#75715e"># Remove with pop</span>
-people<span style="color:#f92672">.</span>pop(<span style="color:#ae81ff">2</span>)
+# Change value
+people[0] = 'Rania'
 
-<span style="color:#75715e"># Reverse list</span>
-people<span style="color:#f92672">.</span>reverse()
+# Remove with pop
+people.pop(2)
 
-<span style="color:#75715e"># Sort list</span>
-people<span style="color:#f92672">.</span>sort()
+# Reverse list
+people.reverse()
 
-<span style="color:#75715e"># Reverse sort</span>
-people<span style="color:#f92672">.</span>sort(reverse<span style="color:#f92672">=</span>True)
+# Sort list
+people.sort()
 
-<span style="color:#66d9ef">print</span>(people)
+# Reverse sort
+people.sort(reverse=True)
 
-</code></pre></div><h3 id="sets">Sets</h3>
+print(people)
+
+</code></pre>
+
+<h3 id="sets">Sets</h3>
+
 <p><strong>sets</strong> are a bit more strict than lists.A set is is a collection which is unordered and un-indexed. No duplicate members.</p>
+
 <p>Let&rsquo;s look at some code &hellip;</p>
+
 <h4 id="create-set">Create set</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">fruits_set <span style="color:#f92672">=</span> {<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Apples</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Oranges</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Mango</span><span style="color:#e6db74">&#39;</span>}
 
-</code></pre></div><p>Some basic operations on sets</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#75715e"># Check if in set</span>
-<span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Apples</span><span style="color:#e6db74">&#39;</span> <span style="color:#f92672">in</span> fruits_set)
+<pre><code class="language-py">fruits_set = {'Apples', 'Oranges', 'Mango'}
 
-<span style="color:#75715e"># Add to set</span>
-fruits_set<span style="color:#f92672">.</span>add(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Grape</span><span style="color:#e6db74">&#39;</span>)
+</code></pre>
 
-<span style="color:#75715e"># Remove from set</span>
-fruits_set<span style="color:#f92672">.</span>remove(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Grape</span><span style="color:#e6db74">&#39;</span>)
+<p>Some basic operations on sets</p>
 
-<span style="color:#75715e"># Add duplicate</span>
-fruits_set<span style="color:#f92672">.</span>add(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Apples</span><span style="color:#e6db74">&#39;</span>)
+<pre><code class="language-py"># Check if in set
+print('Apples' in fruits_set)
 
-<span style="color:#75715e"># Clear set</span>
-fruits_set<span style="color:#f92672">.</span>clear()
+# Add to set
+fruits_set.add('Grape')
 
-<span style="color:#75715e"># Delete</span>
-<span style="color:#66d9ef">del</span> fruits_set
+# Remove from set
+fruits_set.remove('Grape')
 
-<span style="color:#66d9ef">print</span>(fruits_set)
-</code></pre></div><h3 id="tuples">Tuples</h3>
+# Add duplicate
+fruits_set.add('Apples')
+
+# Clear set
+fruits_set.clear()
+
+# Delete
+del fruits_set
+
+print(fruits_set)
+</code></pre>
+
+<h3 id="tuples">Tuples</h3>
+
 <p><strong>tuples</strong> are a bit more strict than sets.A tuple is an ordered collection of data which is unchangeable. Allows duplicate members.</p>
+
 <p>Let&rsquo;s look at some code &hellip;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
-<span style="color:#75715e"># Create tuple</span>
-former <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Zakaria</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Omar</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Mahmoud</span><span style="color:#e6db74">&#39;</span>)
 
-<span style="color:#75715e"># Using a constructor</span>
-former2 <span style="color:#f92672">=</span> tuple((<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Zakaria</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Omar</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Mahmoud</span><span style="color:#e6db74">&#39;</span>))
+<pre><code class="language-py">
+# Create tuple
+former = ('Zakaria', 'Omar', 'Mahmoud')
 
-</code></pre></div><p>How about you try to declare a tuple with only one value ?
+# Using a constructor
+former2 = tuple(('Zakaria', 'Omar', 'Mahmoud'))
+
+</code></pre>
+
+<p>How about you try to declare a tuple with only one value ?
 what happened ? how can we fix it ?</p>
-<h6 id="well-never-know-3">we&rsquo;ll never know 3:)</h6>
+
+<h6 id="we-ll-never-know-3">we&rsquo;ll never know 3:)</h6>
+
 <p>Tuples and lists start from index 0 . This code would retrieve my name from the tuple.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">name <span style="color:#f92672">=</span> former[<span style="color:#ae81ff">0</span>]
-</code></pre></div><p>let&rsquo;s try to change it !</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">former[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">bad zak</span><span style="color:#e6db74">&#39;</span>
-</code></pre></div><p>to delete a tuple</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">print</span>(len(former))
 
-<span style="color:#66d9ef">del</span> former
+<pre><code class="language-py">name = former[0]
+</code></pre>
 
-<span style="color:#66d9ef">print</span>(len(former))
-</code></pre></div><h3 id="dictionary">Dictionary</h3>
+<p>let&rsquo;s try to change it !</p>
+
+<pre><code class="language-py">former[0] = 'bad zak'
+</code></pre>
+
+<p>to delete a tuple</p>
+
+<pre><code class="language-py">print(len(former))
+
+del former
+
+print(len(former))
+</code></pre>
+
+<h3 id="dictionary">Dictionary</h3>
+
 <p>A Dictionary is a data collection that is unordered, changeable and indexed. However , it doesn&rsquo;t allow duplicate members.
 A Dictionary&rsquo;s entry is composed of a key and a value.</p>
+
 <h4 id="create-dict">Create dict</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">person <span style="color:#f92672">=</span> {
-    <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">first_name</span><span style="color:#e6db74">&#39;</span>: <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">zakaria</span><span style="color:#e6db74">&#39;</span>,
-    <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">last_name</span><span style="color:#e6db74">&#39;</span>: <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">ben salem</span><span style="color:#e6db74">&#39;</span>,
-    <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">age</span><span style="color:#e6db74">&#39;</span>: <span style="color:#ae81ff">21</span>
+
+<pre><code class="language-py">person = {
+    'first_name': 'zakaria',
+    'last_name': 'ben salem',
+    'age': 21
 }
-</code></pre></div><h4 id="get-value">Get value</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">print</span>(person[<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">first_name</span><span style="color:#e6db74">&#39;</span>])
-<span style="color:#66d9ef">print</span>(person<span style="color:#f92672">.</span>get(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">last_name</span><span style="color:#e6db74">&#39;</span>))
-</code></pre></div><h4 id="add-keyvalue">Add key/value</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">person[<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">job</span><span style="color:#e6db74">&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">cool person</span><span style="color:#e6db74">&#39;</span>
-</code></pre></div><h4 id="get-dict-keys">Get dict keys</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">print</span>(person<span style="color:#f92672">.</span>keys())
-</code></pre></div><h4 id="get-dict-items">Get dict items</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">print</span>(person<span style="color:#f92672">.</span>items())
-</code></pre></div><h4 id="copy-dict">Copy dict</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">person2 <span style="color:#f92672">=</span> person<span style="color:#f92672">.</span>copy()
-person2[<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">city</span><span style="color:#e6db74">&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">boumhall</span><span style="color:#e6db74">&#39;</span>
-</code></pre></div><h4 id="remove-item">Remove item</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">del</span>(person[<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">age</span><span style="color:#e6db74">&#39;</span>])
-person<span style="color:#f92672">.</span>pop(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">job</span><span style="color:#e6db74">&#39;</span>)
-</code></pre></div><h4 id="clear">Clear</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">person<span style="color:#f92672">.</span>clear()
-</code></pre></div><h4 id="get-length-1">Get length</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">print</span>(len(person2))
-</code></pre></div><h4 id="list-of-dict">List of dict</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">people <span style="color:#f92672">=</span> [
-    {<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">name</span><span style="color:#e6db74">&#39;</span>: <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Hama</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">age</span><span style="color:#e6db74">&#39;</span>: <span style="color:#ae81ff">19</span>},
-    {<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">name</span><span style="color:#e6db74">&#39;</span>: <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Hiba</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">age</span><span style="color:#e6db74">&#39;</span>: <span style="color:#ae81ff">21</span>}
+</code></pre>
+
+<h4 id="get-value">Get value</h4>
+
+<pre><code class="language-py">print(person['first_name'])
+print(person.get('last_name'))
+</code></pre>
+
+<h4 id="add-key-value">Add key/value</h4>
+
+<pre><code class="language-py">person['job'] = 'cool person'
+</code></pre>
+
+<h4 id="get-dict-keys">Get dict keys</h4>
+
+<pre><code class="language-py">print(person.keys())
+</code></pre>
+
+<h4 id="get-dict-items">Get dict items</h4>
+
+<pre><code class="language-py">print(person.items())
+</code></pre>
+
+<h4 id="copy-dict">Copy dict</h4>
+
+<pre><code class="language-py">person2 = person.copy()
+person2['city'] = 'boumhall'
+</code></pre>
+
+<h4 id="remove-item">Remove item</h4>
+
+<pre><code class="language-py">del(person['age'])
+person.pop('job')
+</code></pre>
+
+<h4 id="clear">Clear</h4>
+
+<pre><code class="language-py">person.clear()
+</code></pre>
+
+<h4 id="get-length-1">Get length</h4>
+
+<pre><code class="language-py">print(len(person2))
+</code></pre>
+
+<h4 id="list-of-dict">List of dict</h4>
+
+<pre><code class="language-py">people = [
+    {'name': 'Hama', 'age': 19},
+    {'name': 'Hiba', 'age': 21}
 ]
 
-<span style="color:#66d9ef">print</span>(people[<span style="color:#ae81ff">1</span>][<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">name</span><span style="color:#e6db74">&#39;</span>])
-</code></pre></div><h2 id="conditional">Conditional</h2>
+print(people[1]['name'])
+</code></pre>
+
+<h2 id="conditional">Conditional</h2>
+
 <h3 id="indentation">Indentation</h3>
+
 <p>Python uses indentation to block certain treatments such as if statement. Here is an example of an error of indentation :</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">if</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
-<span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">true</span><span style="color:#e6db74">&#34;</span>)    <span style="color:#75715e">#wrong</span>
-<span style="color:#66d9ef">else</span>
-  <span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">false</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e"># correct</span>
-</code></pre></div><h4 id="if-else">If/ Else</h4>
+
+<pre><code class="language-py">if 1=1
+print(&quot;true&quot;)    #wrong
+else
+  print(&quot;false&quot;) # correct
+</code></pre>
+
+<h4 id="if-else">If/ Else</h4>
+
 <p>If conditions are used to decide to do something based on something being true or false</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
-x <span style="color:#f92672">=</span> <span style="color:#ae81ff">21</span>
-y <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>
-</code></pre></div><h4 id="simple-if">Simple if</h4>
+
+<pre><code class="language-py">
+x = 21
+y = 20
+</code></pre>
+
+<h4 id="simple-if">Simple if</h4>
+
 <p>Comparison Operators (==, !=, &gt;, &lt;, &gt;=, &lt;=) - Used to compare values</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
-<span style="color:#66d9ef">if</span> x <span style="color:#f92672">&gt;</span> y:
-  <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">{x} is greater than {y}</span><span style="color:#e6db74">&#39;</span>)
-</code></pre></div><h4 id="ifelse">If/else</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
-<span style="color:#66d9ef">if</span> x <span style="color:#f92672">&gt;</span> y:
-  <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">{x} is greater than {y}</span><span style="color:#e6db74">&#39;</span>)
-<span style="color:#66d9ef">else</span>:
-  <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">{y} is greater than {x}</span><span style="color:#e6db74">&#39;</span>)  
-</code></pre></div><h4 id="elif">elif</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
-<span style="color:#66d9ef">if</span> x <span style="color:#f92672">&gt;</span> y:
-  <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">{x} is greater than {y}</span><span style="color:#e6db74">&#39;</span>)
-<span style="color:#66d9ef">elif</span> x <span style="color:#f92672">==</span> y:
-  <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">{x} is equal to {y}</span><span style="color:#e6db74">&#39;</span>)  
-<span style="color:#66d9ef">else</span>:
-  <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">{y} is greater than {x}</span><span style="color:#e6db74">&#39;</span>)  
-</code></pre></div><h4 id="nested-if">Nested if</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
-<span style="color:#66d9ef">if</span> x <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">2</span>:
-  <span style="color:#66d9ef">if</span> x <span style="color:#f92672">&lt;</span><span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>:
-    <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">{x} is greater than 2 and less than or equal to 10</span><span style="color:#e6db74">&#39;</span>)
 
-</code></pre></div><h4 id="logical-operators">Logical operators</h4>
-<p>Used to combine conditional statements</p>
-<ul>
-<li>and</li>
-<li>or</li>
-<li>not</li>
-</ul>
+<pre><code class="language-py">
+if x &gt; y:
+  print(f'{x} is greater than {y}')
+</code></pre>
+
+<h4 id="if-else-1">If/else</h4>
+
+<pre><code class="language-py">
+if x &gt; y:
+  print(f'{x} is greater than {y}')
+else:
+  print(f'{y} is greater than {x}')  
+</code></pre>
+
+<h4 id="elif">elif</h4>
+
+<pre><code class="language-py">
+if x &gt; y:
+  print(f'{x} is greater than {y}')
+elif x == y:
+  print(f'{x} is equal to {y}')  
+else:
+  print(f'{y} is greater than {x}')  
+</code></pre>
+
+<h4 id="nested-if">Nested if</h4>
+
+<pre><code class="language-py">
+if x &gt; 2:
+  if x &lt;= 10:
+    print(f'{x} is greater than 2 and less than or equal to 10')
+
+</code></pre>
+
+<h4 id="logical-operators">Logical operators</h4>
+
+<p>Used to combine conditional statements
+- and
+- or
+- not</p>
+
 <h4 id="and">and</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
-<span style="color:#66d9ef">if</span> x <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">and</span> x <span style="color:#f92672">&lt;</span><span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>:
-    <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">{x} is greater than 2 and less than or equal to 10</span><span style="color:#e6db74">&#39;</span>)
-</code></pre></div><h4 id="or">or</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
-<span style="color:#66d9ef">if</span> x <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">or</span> x <span style="color:#f92672">&lt;</span><span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>:
-    <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">{x} is greater than 2 or less than or equal to 10</span><span style="color:#e6db74">&#39;</span>)
-</code></pre></div><h4 id="not">not</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
-<span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span>(x <span style="color:#f92672">==</span> y):
-  <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">{x} is not equal to {y}</span><span style="color:#e6db74">&#39;</span>)
 
-</code></pre></div><h4 id="membership-operators">Membership Operators</h4>
+<pre><code class="language-py">
+if x &gt; 2 and x &lt;= 10:
+    print(f'{x} is greater than 2 and less than or equal to 10')
+</code></pre>
+
+<h4 id="or">or</h4>
+
+<pre><code class="language-py">
+if x &gt; 2 or x &lt;= 10:
+    print(f'{x} is greater than 2 or less than or equal to 10')
+</code></pre>
+
+<h4 id="not">not</h4>
+
+<pre><code class="language-py">
+if not(x == y):
+  print(f'{x} is not equal to {y}')
+
+</code></pre>
+
+<h4 id="membership-operators">Membership Operators</h4>
+
 <blockquote>
 <p>Membership operators are used to test if a sequence is presented in an object</p>
 </blockquote>
+
 <ul>
 <li>not</li>
-<li>not in</li>
+<li>not in
+```py</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
-numbers <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>]
 
-<span style="color:#75715e">####  in</span>
-<span style="color:#66d9ef">if</span> x <span style="color:#f92672">in</span> numbers:
-  <span style="color:#66d9ef">print</span>(x <span style="color:#f92672">in</span> numbers)
+<p>numbers = [1,2,3,4,5]</p>
 
-<span style="color:#75715e">#### not in</span>
-<span style="color:#66d9ef">if</span> x <span style="color:#f92672">not</span> <span style="color:#f92672">in</span> numbers:
-  <span style="color:#66d9ef">print</span>(x <span style="color:#f92672">not</span> <span style="color:#f92672">in</span> numbers)
-</code></pre></div><h4 id="identity-operators">Identity Operators</h4>
-<blockquote>
-<p>Compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:</p>
-</blockquote>
-<ul>
-<li>is</li>
-<li>is not</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
-<span style="color:#75715e"># is</span>
-<span style="color:#66d9ef">if</span> x <span style="color:#f92672">is</span> y:
-  <span style="color:#66d9ef">print</span>(x <span style="color:#f92672">is</span> y)
+<h4 id="in">in</h4>
 
-<span style="color:#75715e"># is not</span>
-<span style="color:#66d9ef">if</span> x <span style="color:#f92672">is</span> <span style="color:#f92672">not</span> y:
-  <span style="color:#66d9ef">print</span>(x <span style="color:#f92672">is</span> <span style="color:#f92672">not</span> y)
-</code></pre></div><h2 id="loops">Loops</h2>
+<p>if x in numbers:
+  print(x in numbers)</p>
+
+<h4 id="not-in">not in</h4>
+
+<p>if x not in numbers:
+  print(x not in numbers)</p>
+
+<pre><code>#### Identity Operators
+&gt; Compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
+
+- is
+- is not
+```py
+
+# is
+if x is y:
+  print(x is y)
+
+# is not
+if x is not y:
+  print(x is not y)
+</code></pre>
+
+<h2 id="loops">Loops</h2>
+
 <p>A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">people <span style="color:#f92672">=</span> [<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Hama</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Hiba</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Aziz</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Omar</span><span style="color:#e6db74">&#39;</span>]
-</code></pre></div><h4 id="simple-for-loop">Simple for loop</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">for</span> person <span style="color:#f92672">in</span> people:
-  <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Current Person: {person}</span><span style="color:#e6db74">&#39;</span>)
-</code></pre></div><h4 id="break">Break</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">for</span> person <span style="color:#f92672">in</span> people:
-  <span style="color:#66d9ef">if</span> person <span style="color:#f92672">==</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Aziz</span><span style="color:#e6db74">&#39;</span>:
-    <span style="color:#66d9ef">break</span>
-  <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Current Person: {person}</span><span style="color:#e6db74">&#39;</span>)
-</code></pre></div><h4 id="continue">Continue</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">for</span> person <span style="color:#f92672">in</span> people:
-  <span style="color:#66d9ef">if</span> person <span style="color:#f92672">==</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Hama</span><span style="color:#e6db74">&#39;</span>:
-    <span style="color:#66d9ef">continue</span>
-  <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Current Person: {person}</span><span style="color:#e6db74">&#39;</span>)
-</code></pre></div><h4 id="range">range</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(people)):
-  <span style="color:#66d9ef">print</span>(people[i])
 
-<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">11</span>):
-  <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Number: {i}</span><span style="color:#e6db74">&#39;</span>)
-</code></pre></div><h4 id="while">While</h4>
+<pre><code class="language-py">people = ['Hama', 'Hiba', 'Aziz', 'Omar']
+</code></pre>
+
+<h4 id="simple-for-loop">Simple for loop</h4>
+
+<pre><code class="language-py">for person in people:
+  print(f'Current Person: {person}')
+</code></pre>
+
+<h4 id="break">Break</h4>
+
+<pre><code class="language-py">for person in people:
+  if person == 'Aziz':
+    break
+  print(f'Current Person: {person}')
+</code></pre>
+
+<h4 id="continue">Continue</h4>
+
+<pre><code class="language-py">for person in people:
+  if person == 'Hama':
+    continue
+  print(f'Current Person: {person}')
+</code></pre>
+
+<h4 id="range">range</h4>
+
+<pre><code class="language-py">for i in range(len(people)):
+  print(people[i])
+
+for i in range(0, 11):
+  print(f'Number: {i}')
+</code></pre>
+
+<h4 id="while">While</h4>
+
 <p>while loops execute a set of statements as long as a condition is true.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-<span style="color:#66d9ef">while</span> count <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>:
-  <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Count: {count}</span><span style="color:#e6db74">&#39;</span>)
-  count <span style="color:#f92672">+</span><span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
-</code></pre></div><h2 id="functions">Functions</h2>
+
+<pre><code class="language-py">count = 0
+while count &lt; 10:
+  print(f'Count: {count}')
+  count += 1
+</code></pre>
+
+<h2 id="functions">Functions</h2>
+
 <h4 id="definition">Definition</h4>
+
 <blockquote>
 <p>A function is a block of code which only runs when it is called. In Python, we do not use curly brackets, we use indentation with tabs or spaces</p>
 </blockquote>
+
 <h4 id="create-function">Create function</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">sayHello</span>(name<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">zak</span><span style="color:#e6db74">&#39;</span>):
-    <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Hello {name}</span><span style="color:#e6db74">&#39;</span>)
 
-</code></pre></div><h4 id="return-values">Return values</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">getSum</span>(num1, num2):
-    total <span style="color:#f92672">=</span> num1 <span style="color:#f92672">+</span> num2
-    <span style="color:#66d9ef">return</span> total
+<pre><code class="language-py">def sayHello(name='zak'):
+    print(f'Hello {name}')
 
-</code></pre></div><h3 id="lamda-functions">Lamda functions</h3>
+</code></pre>
+
+<h4 id="return-values">Return values</h4>
+
+<pre><code class="language-py">def getSum(num1, num2):
+    total = num1 + num2
+    return total
+
+</code></pre>
+
+<h3 id="lamda-functions">Lamda functions</h3>
+
 <ul>
 <li>A lambda function is a small anonymous function.</li>
-<li>A lambda function can take any number of arguments, but can only have one expression. Very similar to JS arrow functions.</li>
+<li>A lambda function can take any number of arguments, but can only have one expression. Very similar to JS arrow functions.
+``` py</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
-getSum <span style="color:#f92672">=</span> <span style="color:#66d9ef">lambda</span> num1, num2: num1 <span style="color:#f92672">+</span> num2
 
-<span style="color:#66d9ef">print</span>(getSum(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>))
-</code></pre></div>
+<p>getSum = lambda num1, num2: num1 + num2</p>
+
+<p>print(getSum(1, 1))</p>
+
+<pre><code>### List description :
+``` py
+people = {
+  &quot;1&quot; : {
+    &quot;name&quot; : &quot;bo&quot;,
+    &quot;age&quot; : 2
+  },
+  &quot;2&quot; : {
+    &quot;name&quot; : &quot;boo&quot;,
+    &quot;age&quot; : 3
+  },
+  &quot;3&quot; : {
+    &quot;name&quot; : &quot;bam&quot;,
+    &quot;age&quot; : 99
+  }
+}
+
+for l in people:
+    print(people[l][&quot;name&quot;])
+names=[people[l][&quot;name&quot;] for l in people]
+print(names)
+</code></pre>
+
         
     </div>
 
@@ -624,7 +887,7 @@ getSum <span style="color:#f92672">=</span> <span style="color:#66d9ef">lambda</
         <li><a class="author btn" href="#">PyMonth</a></li>
         
         <li>
-            <a class="icon-link btn" href="/PyMonth/index.xml" type="application/rss+xml" title="rss">
+            <a class="icon-link btn" href="/index.xml" type="application/rss+xml" title="rss">
                 <i class="rss icon"></i></a>
         </li>
     </ul>
@@ -636,13 +899,9 @@ getSum <span style="color:#f92672">=</span> <span style="color:#66d9ef">lambda</
         <li><a href="#" class="btn">Pages:
                 0</a></li>
         <li><a href="#" class="btn">en</a></li>
-        <li><a href="https://gohugo.io" class="btn">Hugo, 0.63.1</a></li>
+        <li><a href="https://gohugo.io" class="btn">Hugo, 0.53</a></li>
         <li><a href="https://github.com/jacobsun/edidor" class="btn">Theme: Edidor</a></li>
         <li>
-            
-                <a href="#" class="btn">Last build: <time
-                    datetime="2020-01-24T01:20:28Z">2020-01-24T01:20:28Z</time>
-                </a>
             
         </li>
     </ul>
@@ -671,7 +930,7 @@ getSum <span style="color:#f92672">=</span> <span style="color:#66d9ef">lambda</
     </div>
 </div>
 
-    <script src="/PyMonth/js/main.js"></script>
+    <script src="/js/main.js"></script>
 
 
 
