@@ -5,17 +5,17 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="generator" content="Hugo 0.63.1" />
+    <meta name="generator" content="Hugo 0.53" />
     
-    <link rel="canonical" href="/posts/chapter2/" />
+    <link rel="canonical" href="/PyMonth/posts/chapter2/" />
     <meta name="description" content="PyMonth documentation. &lt;br/&gt;&lt;br/&gt; Ctrl&#43;B toggle sidebar. ">
     
 
     <title>Chapter2 &middot; PyMonth</title>
 
-    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="shortcut icon" href="/PyMonth/images/favicon.ico" />
 
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="/PyMonth/css/main.css" />
     
         
         <link rel="stylesheet"
@@ -30,10 +30,10 @@
 <body class="loading dark-mode">
     
 <div class="top">
-    <img class="logo" src="images/logo.svg" alt="logo" />
+    <img class="logo" src="/PyMonth/images/logo.svg" alt="logo" />
 </div>
 <div class="bottom">
-    <img class="logo" src="images/logo.svg" alt="logo" />
+    <img class="logo" src="/PyMonth/images/logo.svg" alt="logo" />
 </div>
 
     <header class="header">
@@ -41,8 +41,8 @@
         
 
 <li class="logo-container logo-default">
-    <a href="" class="btn logo-link">
-        <img class="logo" src="images/logo.svg" alt="logo" />
+    <a href="/PyMonth/" class="btn logo-link">
+        <img class="logo" src="/PyMonth/images/logo.svg" alt="logo" />
     </a>
 </li>
 
@@ -58,21 +58,21 @@
             <ul class="sub-menu control">
                 
                 <li class="">
-                    <a href="/posts"
+                    <a href="PyMonth/posts"
                     
                         class="btn "
                     >Posts</a>
                 </li>
                 
                 <li class="">
-                    <a href="/tags"
+                    <a href="PyMonth/tags"
                     
                         class="btn "
                     >Tags</a>
                 </li>
                 
                 <li class="">
-                    <a href="/categories"
+                    <a href="PyMonth/categories"
                     
                         class="btn "
                     >Categories</a>
@@ -158,31 +158,496 @@
         <nav class="sidebar">
             <ul class="posts control">
     
-    <li><a class="no-break btn" href='/posts/chapter2/'><i class="icon icon-post"></i>Chapter2</a></li>
+    <li><a class="no-break btn" href='/PyMonth/posts/chapter2/'><i class="icon icon-post"></i>Chapter2</a></li>
     
-    <li><a class="no-break btn" href='/posts/chapter1/'><i class="icon icon-post"></i>Chapter1</a></li>
+    <li><a class="no-break btn" href='/PyMonth/posts/chapter1/'><i class="icon icon-post"></i>Chapter1</a></li>
     
 </ul>
 
         </nav>
         <main class="main">
             <article class="article">
-    <h2 class="title"><a href='/posts/chapter2/' class="btn">Chapter2</a></h2>
+    <h2 class="title"><a href='/PyMonth/posts/chapter2/' class="btn">Chapter2</a></h2>
     <div class="article-meta clearfix">
         <ul class="dates clearfix left control">
             <li><i class="icon icon-date"></i></li>
             <li class="publish-date">
-                <time datetime="0001.01.01">0001.01.01</time>
+                <time datetime="2020.02.06">2020.02.06</time>
             </li>
         </ul>
         
         
+        <div class="article-meta-splitter clearfix"></div>
+        <ul class="article-tags clearfix control">
+            <li><i class="icon icon-tags"></i></li>
+            
+            <li>
+                <a href="/PyMonth/tags/python/" class="btn">python</a>
+            </li>
+            
+            <li>
+                <a href="/PyMonth/tags/object-oriented/" class="btn">Object Oriented</a>
+            </li>
+            
+        </ul>
+        
     </div>
     <div class="content">
         
-        <h1 id="coming-soon-">Coming Soon !!</h1>
-<h2 id="wow-exited-about-our-new-workshop-already-">Wow Exited about our new workshop already !!</h2>
-<h3 id="dont-forget-to-follow-us-on-facebook-then">Dont forget to follow us on facebook then</h3>
+        
+
+<h1 id="welcome-back">Welcome Back !!</h1>
+
+<h2 id="we-ve-missed-you">We&rsquo;ve missed you</h2>
+
+<h3 id="we-are-sorry-for-the-skip-concerning-last-week-let-s-get-right-into-it-then">we are sorry for the skip concerning last week , let&rsquo;s get right into it then &hellip;</h3>
+
+<p><br></p>
+
+<h1 id="functions">Functions</h1>
+
+<h3 id="let-s-finish-with-some-functions-real-quick">Let&rsquo;s finish with some functions real quick</h3>
+
+<p>Most of the time you won&rsquo;t write all the code from scratch. Nearly in any &ldquo;more advanced&rdquo; scripts you will need to use a library or a module , here is how you can import one :</p>
+
+<h4 id="importing">Importing</h4>
+
+<p><strong>Global import</strong></p>
+
+<pre><code class="language-py">import json
+
+</code></pre>
+
+<p>If we use this , will get all the main functions of the JSON module.</p>
+
+<p><strong>Short naming</strong></p>
+
+<pre><code class="language-py">import json as j
+</code></pre>
+
+<p>If we use this form , we can call the JSON functions in this form :</p>
+
+<pre><code>j.some_function()
+</code></pre>
+
+<p><strong>importing specific functions</strong></p>
+
+<pre><code class="language-py">from module import function
+</code></pre>
+
+<p><strong>now</strong> let&rsquo;s create our own function in a seperate file and import it :
+Create a file named <strong>main.py</strong> and another named <strong>func.py</strong> .</p>
+
+<p>Here is the code for the <strong>main.py</strong> :</p>
+
+<pre><code class="language-py">import func as f
+
+def __main__():
+  f.print()
+
+if __name__ == '__main__':
+  __main__()
+</code></pre>
+
+<p>Before we code <strong>func.py</strong> , let&rsquo;s have a look at our code above .
+<strong>noticed</strong> the &ldquo; __ &ldquo; ?
+well the name <strong>main</strong> is a conventional statement used by python developers to indicate that the function is the main one.</p>
+
+<p>let&rsquo;s also understand this part :</p>
+
+<pre><code class="language-py">if __name__ == '__main__':
+  __main__()
+</code></pre>
+
+<p>since python can&rsquo;t call the functions on its own , we should do it manually.
+the variable <code>__name__</code> is generated by the interpreter and appended in the first line of the script.</p>
+
+<p><code>always keep this as the last line since upon reading it the python would jump directly to the main function.
+as a good rules of thumbs , keep it at the end of the file.
+</code>
+This variable let us define a function and act like an external module. Thus our functions can be accessed by the main method and other scripts.</p>
+
+<h5 id="let-s-get-back-to-the-func-file">let&rsquo;s get back to the &lsquo;func&rsquo; file</h5>
+
+<p>here is the code for it :</p>
+
+<pre><code class="language-py">def print():
+  print('hey am an independent function ! Viva la revolution !!! ')
+</code></pre>
+
+<h5 id="try-this-and-check-the-result">Try this and check the result ;)</h5>
+
+<p>run this : <code>python3 main.py</code> or simply run the code from your editor</p>
+
+<h1 id="files">Files</h1>
+
+<h2 id="standard-open-method">standard open method</h2>
+
+<p>In order to use files in python you have to use the open method. It has for parameters the path of the file ( relative or absolute) and the mode.</p>
+
+<p>Modes :<br />
+- r: reading only<br />
+- w: writing only and will override any previous data<br />
+- a: append to the end of the file<br />
+- b: reading binary<br />
+- U: for Universal ( discover it and tell us what you found )</p>
+
+<pre><code class="language-py">open('path to file','r')
+</code></pre>
+
+<h3 id="reading-text-files">Reading text files</h3>
+
+<p>Let&rsquo;s make a basic function that read the content of a test file</p>
+
+<pre><code class="language-py">def readfile():
+    file =open('testfile.txt','r')
+    str=file.read()
+    return(str)
+
+</code></pre>
+
+<p>as you can see , I saved the result of the open method in a variable so I can access it and Its methods such as read.
+** NOTE : the variable file can be iterable**
+Here is how you can iterate it :</p>
+
+<pre><code class="language-py">def loopread(file):
+    for line in file :
+        print(line, end='')
+</code></pre>
+
+<p>Here file represents the result of the open method.</p>
+
+<h4 id="file-close">file.close()</h4>
+
+<p>If you use &ldquo;open&rdquo; it makes sense to close the file afterwards , since it becomes a shared resource. However in the case of read this doesn&rsquo;t affect much the course of our program.
+However , we&rsquo;re lucky to have the <code>with</code> block.
+<strong>a combination of both would be as such :</strong></p>
+
+<pre><code class="language-py">def readwith():
+    with open('testfile.txt')as f:
+        return(f.read())
+</code></pre>
+
+<p><strong>If</strong> we use the with block , there will be an automatic <code>f.close()</code> at the end of it.<strong>BUT</strong> ! any data collected inside the block would persist.</p>
+
+<p><strong>Now</strong> here is a method that takes a path of a text file and returns one line of it :</p>
+
+<pre><code class="language-py">def readFromFile(path):
+    with open(path,'r') as f:
+        print(f.readline())
+</code></pre>
+
+<h5 id="which-line-is-this-and-why">Which line is this ? and why ?</h5>
+
+<h3 id="writing">Writing</h3>
+
+<p>well it&rsquo;s pretty much obvious by now , here is the example :</p>
+
+<pre><code class="language-py">def openfile():
+    file = open('testfile.txt','w')
+    file.write('I love pymonth !')
+    file.close()
+</code></pre>
+
+<p>and here is the same one but using the <code>with</code> block</p>
+
+<pre><code class="language-py">def writefile():
+  with open('testfile.txt','w') as f :
+    f.write('I love pymonth!')
+</code></pre>
+
+<h2 id="how-about-a-small-activity">How about a small activity ?</h2>
+
+<h3 id="activity-uno">Activity Uno :</h3>
+
+<p>Write a script that reads a name from the user( via keyboard) and saves :</p>
+
+<pre><code>Welcome !
+have a good day &quot;name&quot;
+</code></pre>
+
+<h3 id="ugh-another-one">ugh another one &hellip; (._.)</h3>
+
+<p>Write a script that reads from the file generated from the previous activity , and print the name of the person mentioned <br />
+._.</p>
+
+<h2 id="manipulating-structured-data">Manipulating <strong>Structured</strong> Data</h2>
+
+<p>In some cases , you will have to manipulate a structured data format such as a dictionary. However saving it as a text file would be a pain in the a$$ .
+<strong>BUT</strong> If you followed carefully in our previous chapter , we mentioned that dictionaries are similar to JSON files.</p>
+
+<h3 id="writing-to-a-json-file">Writing to a JSON file</h3>
+
+<p><strong>note</strong> : Json files require more structured data than txt files , that&rsquo;s is why it is preferred you use the dict/json combo.</p>
+
+<p>Here in this example we used the json module , it comes prepackaged with any minimal python installation.</p>
+
+<pre><code class="language-py">import json
+
+def writeJson(path):
+    with open(path,'w') as fp:
+        data={&quot;name&quot;:&quot;mahmoud&quot;,&quot;job&quot;:&quot;helps people not like zak&quot;}
+        json.dump(data,fp)
+
+</code></pre>
+
+<p>Here is another variation:</p>
+
+<pre><code class="language-py">def write2Json(path,data):
+  with open(path,'w')as fp:
+    json.dump(data,fp)
+</code></pre>
+
+<h3 id="reading-from-a-json-file">Reading from a JSON file</h3>
+
+<p>pretty self explanatory !</p>
+
+<pre><code class="language-py">def readJson(path):
+    with open(path,'r') as fp:
+        data=dict(json.load(fp))
+        #print(data)
+        return(data)
+</code></pre>
+
+<h3 id="some-messing-around">Some messing around :</h3>
+
+<pre><code class="language-py">def appendJson(path):
+    data=readJson(path)
+    data[&quot;is_good&quot;]=True
+    write2Json(path,data)
+</code></pre>
+
+<h2 id="tired-from-writing">Tired from writing ?</h2>
+
+<h3 id="here-is-some-premade-code">Here is some premade code</h3>
+
+<pre><code class="language-py">import json
+
+def writeJson(path):
+    with open(path,'w') as fp:
+        data={&quot;name&quot;:&quot;mahmoud&quot;,&quot;job&quot;:&quot;helps people not like zak&quot;}
+        json.dump(data,fp)
+
+def write2Json(path,data):
+    with open(path,'w')as fp:
+        json.dump(data,fp)
+
+def readJson(path):
+    with open(path,'r') as fp:
+        data=dict(json.load(fp))
+        #print(data)
+        return(data)
+def appendJson(path):
+    data=readJson(path)
+    data[&quot;is_good&quot;]=True
+    write2Json(path,data)
+
+def __main__():
+    writeJson('test.json')
+    readJson('test.json')
+    appendJson('test.json')
+    print(readJson('test.json'))
+
+if __name__== &quot;__main__&quot;:
+  __main__()
+
+</code></pre>
+
+<h1 id="other-modules">Other Modules</h1>
+
+<h2 id="time-format">Time format :</h2>
+
+<p>Thankfully , we can use the datatime module to get the current time , it goes as such :</p>
+
+<pre><code class="language-py">from datetime import datetime
+
+def time():
+    return(datetime.now())
+
+print(time())
+
+</code></pre>
+
+<h2 id="how-about-another-activity">How about another activity</h2>
+
+<h4 id="write-a-script-that-writes-the-current-time-in-a-text-file">Write a script that writes the current time in a text file</h4>
+
+<h4 id="try-to-do-it-with-a-json-file">Try to do it with a JSon file</h4>
+
+<h1 id="object-oriented-programming-with-python">Object Oriented Programming with python</h1>
+
+<h2 id="1-simple-example">1. Simple Example</h2>
+
+<pre><code class="language-py">class Person():
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def sayHello(self):
+        print(f&quot;Hello, I'm {self.name}, I'm {self.age} years old&quot;)
+
+mahmoud = Person(&quot;Mahmoud Mastouri&quot;,22)
+mahmoud.sayHello()
+</code></pre>
+
+<p>In this example, we saw a simple implementation of the Person class <br />
+If you have noticed: I used the keyword <strong>self</strong>: let&rsquo;s talk about it</p>
+
+<h2 id="2-private-variables">2. Private variables</h2>
+
+<p><strong>Try this example:</strong></p>
+
+<pre><code class="language-py">class Person():
+
+    def __init__(self, name, age, cin):
+        self.name = name
+        self.age = age
+        self.__cin = cin
+
+    def sayHello(self):
+        print(f&quot;Hello, I'm {self.name}, I'm {self.age} years old&quot;)
+
+mahmoud = Person(&quot;Mahmoud Mastouri&quot;, 22, 12345678)
+print(mahmoud.name)
+print(mahmoud.__cin)
+</code></pre>
+
+<p><strong>ERROR ?!</strong> <br />
+<strong>AttributeError: &lsquo;Person&rsquo; object has no attribute &lsquo;__cin&rsquo;</strong> <br />
+<strong>But we do have a variable called &ldquo;__cin&rdquo;</strong></p>
+
+<pre><code class="language-py">class Person():
+
+    def __init__(self, name, age, cin):
+        self.name = name
+        self.age = age
+        self.__cin = cin
+
+    def sayHello(self):
+        print(f&quot;Hello, I'm {self.name}, I'm {self.age} years old&quot;)
+
+    def getCin(self):
+        return self.__cin
+
+    def setCin(self, cin):
+        self.__cin = cin
+
+mahmoud = Person(&quot;Mahmoud Mastouri&quot;, 22, 12345678)
+print(f&quot;CIN: {mahmoud.getCin()}&quot;)
+mahmoud.setCin(87654321)
+print(f&quot;CIN: {mahmoud.getCin()}&quot;)
+</code></pre>
+
+<p><strong>Note</strong>: The <strong>only</strong> way for access a private variable is by defining the <strong>setters</strong> and <strong>getters</strong> methods</p>
+
+<h2 id="3-class-with-custom-constructor">3 Class with custom constructor</h2>
+
+<pre><code class="language-py">class Person():
+
+    def __init__(self, name=&quot;Anonymous&quot;, age=0, cin=0):
+        self.name = name
+        self.age = age
+        self.__cin = cin
+
+    def sayHello(self):
+        print(f&quot;Hello, I'm {self.name}, I'm {self.age} years old&quot;)
+
+    def getCin(self):
+        return self.__cin
+
+    def setCin(self, cin):
+        self.__cin = cin
+
+no_one = Person()
+no_one.sayHello()
+print(f&quot;CIN: {no_one.getCin()}&quot;)
+</code></pre>
+
+<h2 id="4-global-variaables">4. Global variaables</h2>
+
+<pre><code class="language-py">class Person():
+
+    loc = &quot;location&quot;
+    def __init__(self, name=&quot;Anonymous&quot;, age=0, cin=0):
+        self.name = name
+        self.age = age
+        self.__cin = cin
+
+    def sayHello(self):
+        print(f&quot;Hello, I'm {self.name}, I'm {self.age} years old&quot;)
+
+    def getCin(self):
+        return self.__cin
+
+    def setCin(self, cin):
+        self.__cin = cin
+
+
+p = Person()
+p.loc = &quot;gg&quot;
+print(Person.loc)
+Person.loc = &quot;ff&quot;
+print(Person.loc)
+</code></pre>
+
+<h2 id="5-classmethod">5. Classmethod</h2>
+
+<p>A class method is a method that’s <strong>shared</strong> among all objects. To call a class method, put the class as the first argument.</p>
+
+<pre><code class="language-py">class blob:
+    name = 'am a blob'
+
+    @classmethod
+    def printName(c):
+        print(c.name)
+
+blob.printName()
+</code></pre>
+
+<h3 id="let-s-try-it-out">Let&rsquo;s try it out :</h3>
+
+<pre><code class="language-py">b=blob()
+b.printName()
+</code></pre>
+
+<p><strong>How can it be the same value ??</strong>
+Well its quite simple , the classmethod is shared between all objects of &lsquo;blob&rsquo;and the name variable is static shared one , thus any object created will print the same message</p>
+
+<h3 id="let-s-try-to-change-the-name">let&rsquo;s try to change the name :</h3>
+
+<pre><code class="language-py">b=blob()
+b.name=&quot;new name&quot;
+b.printName()
+bloby=blob()
+bloby.printName()
+</code></pre>
+
+<p>well by changing it through the object it will be ignored, however if we change it via the class it self we can obtain a different result :</p>
+
+<pre><code class="language-py">blob.name=&quot;blob&quot;
+bloby=blob()
+bloby.printName()
+</code></pre>
+
+<h3 id="pythonic-notation">Pythonic notation :</h3>
+
+<pre><code class="language-py">blob.method=classmethod(blob.printName())
+</code></pre>
+
+<p>Let&rsquo;s try this one out !!</p>
+
+<h2 id="final-test">Final test !</h2>
+
+<h3 id="message-app-o">message app (<em>o</em>)</h3>
+
+<p>Write a script that let&rsquo;s two users type messages ( text ), each message is treated as an object with :
+* Sender<br />
+* Date<br />
+* Text<br />
+each message should be printed then on the terminal , However it also should be saved in JSON file as of history.
+If the JSON file is not empty you should load old conversations and print them as well ( at the start of the script )
+Good luck !</p>
 
         
     </div>
@@ -220,7 +685,7 @@
         <li><a class="author btn" href="#">PyMonth</a></li>
         
         <li>
-            <a class="icon-link btn" href="/index.xml" type="application/rss+xml" title="rss">
+            <a class="icon-link btn" href="/PyMonth/index.xml" type="application/rss+xml" title="rss">
                 <i class="rss icon"></i></a>
         </li>
     </ul>
@@ -232,13 +697,9 @@
         <li><a href="#" class="btn">Pages:
                 0</a></li>
         <li><a href="#" class="btn">en</a></li>
-        <li><a href="https://gohugo.io" class="btn">Hugo, 0.63.1</a></li>
+        <li><a href="https://gohugo.io" class="btn">Hugo, 0.53</a></li>
         <li><a href="https://github.com/jacobsun/edidor" class="btn">Theme: Edidor</a></li>
         <li>
-            
-                <a href="#" class="btn">Last build: <time
-                    datetime="2020-01-24T01:20:28Z">2020-01-24T01:20:28Z</time>
-                </a>
             
         </li>
     </ul>
@@ -267,7 +728,7 @@
     </div>
 </div>
 
-    <script src="js/main.js"></script>
+    <script src="/PyMonth/js/main.js"></script>
 
 
 

@@ -1,37 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/basics/</loc>
+    <loc>/PyMonth/posts/chapter2/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/PyMonth/posts/chapter1/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/chapter1/</loc>
+    <loc>/PyMonth/tags/basics/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/posts/chapter2/</loc>
+    <loc>/PyMonth/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>/PyMonth/tags/object-oriented/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/PyMonth/posts/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/python/</loc>
+    <loc>/PyMonth/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/PyMonth/tags/python/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/PyMonth/tags/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
